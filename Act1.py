@@ -6,5 +6,8 @@ finals = int(input("Final: "))
 
 Ave = float((preLims + midTerm + semiFinal + finals) / 4)
 
-print(Ave)
+if (Ave >= 75):
+    print("PASSEDE")
+else: 
+    print("FAILED")
 
